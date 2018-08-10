@@ -1,0 +1,24 @@
+{
+  "name": "antiphish",
+  "version": "0.0.1",
+  "description": "Get back at malicous websites!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Anti-Hack",
+    "Anti-Scam",
+    "Anti-Phish"
+  ],
+  "author": "Nathan Laha",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "jsonfile": "^4.0.0",
+    "prompt": "^1.0.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "tough-cookie": "^2.4.3"
+  }
+}
