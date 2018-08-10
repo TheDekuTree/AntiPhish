@@ -4,7 +4,7 @@
   "description": "Get back at malicous websites!",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "echo who needs tests!"
   },
   "keywords": [
     "Anti-Hack",
