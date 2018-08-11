@@ -4,7 +4,7 @@ const chalk = require('chalk');
 
 var namesFile = 'names.json'
 
-function startSpamming(address) {
+function startSpamming(address, time) {
 
     // load a json file containing random names
     jsonfile.readFile(namesFile, function (err, obj) {
@@ -19,7 +19,7 @@ function startSpamming(address) {
                 if (i < obj.length) { //  if the counter < 10, call the loop function
                     mainloop(); //  ..  again which will trigger another 
                 } //  ..  setTimeout()
-            }, 1000)
+            }, time)
         }
 
         mainloop();
